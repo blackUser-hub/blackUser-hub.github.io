@@ -1,0 +1,64 @@
+body{
+	background-color: gray;
+}
+main{
+    box-shadow:  0px   0px 10px 1px #FFF;  
+	display: flex; /* flex-1строка, block-друг за другом, inline-строчное без переноса*/
+	flex-wrap: wrap; /*выравнивает элем в строку*/
+	background-color: #fcffa0;
+	width: 70%; /*ширина*/
+	padding: 50px; /*внутрений отступ (рамка)*/
+    margin: auto; /*внешний отступ*/
+    justify-content: center; /*центрирует по горезонтали,работает токо с флексом*/
+
+}
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px) / 16 * 9);
+	box-shadow: 19px -11px 14px 3px #ff00a3; /*тень*/
+	margin: 20px;
+	background-color: #ffaaff;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.0001s ease;
+
+}
+h1{
+	width: 100%;
+	text-align: center;  /*расположение текста*/
+	font-size: 48px; /*размер шрифта*/
+}	
+.photo1{
+	background-image: url(img/img1.jpg);
+}
+.photo2{
+	background-image: url(img/img2.jpg);
+}
+.photo3{
+	background-image: url(img/img3.jpg);
+}
+.photo4{
+	background-image: url(img/img4.jpg);
+}
+.photo5{
+	background-image: url(img/img5.jpg);
+}
+.photo1{6
+	background-image: url(img/img6.jpg);
+}
+.photo7{
+	background-image: url(img/img7.jpg);
+}
+.photo8{
+	background-image: url(img/img8.jpg);
+}
+.photo9{
+	background-image: url(img/img9.jpg);
+}
+.photo10{
+	background-image: url(img/img10.jpg);
+}
+.photo:hover {
+	box-shadow: 19px -11px 14px 3px #ff00a3;
+	transform: rotate(3600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000deg) scale(5.07); /*scale-поворот Rotate-увел маштаб)*/
+}

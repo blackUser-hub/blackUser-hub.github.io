@@ -1,0 +1,54 @@
+body{
+	background-color:#bbc2c7;  /*фон*/
+}
+img	{
+	max-width: 900px;
+	width: 100%; /*ширина*/
+	height: auto; /*высота*/
+	margin: auto;
+	display: block;
+}
+.glav1{
+   width: 30%;
+   height: auto; 
+   margin-left:100px;
+   margin-right: 400px;flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+.glav2{
+   width: 30%;
+   height: auto; 
+   margin-right:200px;
+   margin-top:100px;
+   
+}
+.name{
+	color:#f900ff;
+}
+.text1{
+	size: 
+	color:#ff009a;
+ }
+ .DraconiTechoMagic{ 
+ 	text-align: center;
+    width: 30%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right:200px;
+   background-image: url(img4);
+   box-shadow: -11px -12px 34px 10px #62c6df;
+   transition: all 0.5s ease;
+ }
+ .Mods{		
+ font-size:100%;
+ }
+ .ModsSpan{
+ 	color:red;
+ }
+ .mp41{
+padding-left: 350px;
+ }
+ .DraconiTechoMagic: hover{
+ 	transform: transform: scale(1.07) ;
+ }
